@@ -11,7 +11,7 @@ After extracting the files from Github to your working environment, run the foll
 npm install
 ```
 
-### 2. Add the DB Credentials & APP_URL
+### 2. Add the credentials
 
 After the packages are installed, add the KEY and SECRET code from the FTX site in the config.js file.
 Also, write the name you defined in the subaccount you will create on the FTX site.
