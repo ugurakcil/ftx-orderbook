@@ -1,0 +1,36 @@
+{
+  "name": "ftx-orderbook",
+  "version": "1.0.0",
+  "description": "A web service that provides quotes for digital currency trades using data from the FTX orderbook",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugurakcil/ftx-orderbook.git"
+  },
+  "keywords": [
+    "ftx",
+    "orderbook",
+    "cryptocoin"
+  ],
+  "author": "Uğur AKÇIL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugurakcil/ftx-orderbook/issues"
+  },
+  "homepage": "https://github.com/ugurakcil/ftx-orderbook#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "decimal.js": "^10.2.1",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "lodash": "^4.17.20",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
